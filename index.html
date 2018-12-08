@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>vis</title>
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body>
+
+	<canvas id="canvas" width="1280" height="720"></canvas>
+
+	<div id="footer">
+		<div id="controls">
+			<button onclick="vis.start()">Start</button>
+			<button onclick="vis.stop()">Stop</button>
+			<button onclick="vis.toggleAnalyzer()">Toggle Analyzer</button>
+			<button onclick="vis.toggleFps()">Toggle FPS</button>
+		</div>
+		<audio id="aud" controls></audio>
+		<input id="file-selector" type="file" accept="audio/*" />
+	</div>
+
+	<script type="module" src="js/index.js"></script>
+
+</body>
+</html>
