@@ -20,18 +20,12 @@ canvas {
 
 #footer {
 	display: flex;
-	flex-flow: column nowrap;
+	flex-flow: row nowrap;
 
 	justify-content: center;
 	align-items: center;
 
-	width: 35%;
-	margin-top: 1vw;
-}
-
-audio {
 	width: 100%;
-	margin: 1vh;
 }
 
 button {
@@ -46,7 +40,13 @@ button:hover {
 	cursor: pointer;
 }
 
+audio {
+	margin-left: 2vw;
+	width: 25%;
+}
+
 #file-selector {
+	margin-right: 1vw;
 	padding: 1vw;
 	border-bottom: 1px solid lightgray;
 }
